@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   for element in array
-    puts "#{array.index(element)+1}#{element}"
+    puts "#{array.index(element)+1}.#{element}"
   end
 end
 
